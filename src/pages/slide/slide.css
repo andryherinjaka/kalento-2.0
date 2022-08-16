@@ -1,0 +1,27 @@
+.produit{
+    display: flex;
+}
+.containerSlide {
+    width: 100%;
+    background-color: rgb(70, 69, 69);
+    padding: 60px;
+    flex-direction: column;
+    position: relative;
+    margin-right: 100px;
+    margin-top: 550px;
+    z-index: -1;
+    justify-content: center;
+    border-bottom: white solid 2px;
+}
+
+span{
+    color: green;
+    font-size: 25px;
+}
+.containerSlide p{
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 60px;
+    width: 80%;
+    color: white;
+}
